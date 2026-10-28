@@ -1,0 +1,22 @@
+{
+  "bank": "sbi",
+  "branches": [
+    {"id": "30000000-0001-4000-8000-000000000001", "bankCode": "SBI", "branchName": "Connaught Place", "ifscCode": "SBIN0SIM001"},
+    {"id": "30000000-0001-4000-8000-000000000002", "bankCode": "SBI", "branchName": "Dwarka", "ifscCode": "SBIN0SIM002"}
+  ],
+  "accountHolders": [
+    {"id": "30000000-0002-4000-8000-000000000001", "holderName": "Arjun Verma", "ownerTaxIdRef": "CCCCC0001A", "holderType": "PERSON", "mobileNumber": "9834567801", "email": "arjun.verma@example.com"},
+    {"id": "30000000-0002-4000-8000-000000000002", "holderName": "Nisha Gupta", "ownerTaxIdRef": "CCCCC0002A", "holderType": "PERSON", "mobileNumber": "9834567802", "email": "nisha.gupta@example.com"},
+    {"id": "30000000-0002-4000-8000-000000000003", "holderName": "Dev Malhotra", "ownerTaxIdRef": "CCCCC0003A", "holderType": "PERSON", "mobileNumber": "9834567803", "email": "dev.malhotra@example.com"},
+    {"id": "30000000-0002-4000-8000-000000000004", "holderName": "Sana Khan", "ownerTaxIdRef": "CCCCC0004A", "holderType": "PERSON", "mobileNumber": "9834567804", "email": "sana.khan@example.com"},
+    {"id": "30000000-0002-4000-8000-000000000005", "holderName": "Vikram Singh", "ownerTaxIdRef": "CCCCC0005A", "holderType": "PERSON", "mobileNumber": "9834567805", "email": "vikram.singh@example.com"},
+    {"id": "30000000-0002-4000-8000-000000000006", "holderName": "Sahaj Asset Trading Private Limited", "ownerTaxIdRef": "DDDCD0001D", "holderType": "ORGANIZATION", "mobileNumber": "9898765400", "email": "treasury.sahaj@example.com"}
+  ],
+  "bankAccounts": [
+    {"id": "30000000-0003-4000-8000-000000000001", "accountNumber": "300000000001", "accountHolderId": "30000000-0002-4000-8000-000000000001", "branchId": "30000000-0001-4000-8000-000000000001", "accountType": "SAVINGS", "accountPurpose": "CUSTOMER", "currency": "INR", "status": "ACTIVE", "balancePaise": "1000000"},
+    {"id": "30000000-0003-4000-8000-000000000002", "accountNumber": "300000000002", "accountHolderId": "30000000-0002-4000-8000-000000000002", "branchId": "30000000-0001-4000-8000-000000000002", "accountType": "SAVINGS", "accountPurpose": "CUSTOMER", "currency": "INR", "status": "ACTIVE", "balancePaise": "100"},
+    {"id": "30000000-0003-4000-8000-000000000003", "accountNumber": "300000000003", "accountHolderId": "30000000-0002-4000-8000-000000000003", "branchId": "30000000-0001-4000-8000-000000000001", "accountType": "SAVINGS", "accountPurpose": "CUSTOMER", "currency": "INR", "status": "INACTIVE", "balancePaise": "500000"},
+    {"id": "30000000-0003-4000-8000-000000000004", "accountNumber": "300000000004", "accountHolderId": "30000000-0002-4000-8000-000000000004", "branchId": "30000000-0001-4000-8000-000000000002", "accountType": "SAVINGS", "accountPurpose": "CUSTOMER", "currency": "INR", "status": "FROZEN", "balancePaise": "500000"},
+    {"id": "30000000-0003-4000-8000-000000000005", "accountNumber": "300000000005", "accountHolderId": "30000000-0002-4000-8000-000000000005", "branchId": "30000000-0001-4000-8000-000000000001", "accountType": "SAVINGS", "accountPurpose": "CUSTOMER", "currency": "INR", "status": "ACTIVE", "balancePaise": "750000"}
+  ]
+}
