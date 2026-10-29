@@ -825,7 +825,8 @@ export class AddTransferWorkflow1792323135690 implements MigrationInterface {
       END;
       $$;
 
-      DROP MATERIALIZED VIEW public.simulator_schema_migrations      DROP TABLE public.callback_delivery_attempts;
+      DROP MATERIALIZED VIEW public.simulator_schema_migrations;
+      DROP TABLE public.callback_delivery_attempts;
       DROP TABLE public.callback_events;
       DROP TABLE public.simulated_inbox_messages;
       DROP TABLE public.simulation_rules;
